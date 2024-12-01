@@ -19,7 +19,8 @@ img {
 }
 
 div{
-      padding: 20px;
+      margin: 50px auto; /* Margin outside the container */
+      padding: 20px; /* Space inside the container */
       max-width: 600px;
   }
 
@@ -74,3 +75,4 @@ p{
     border-color: gray;
     border-width: 3px;
 }
+
