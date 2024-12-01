@@ -1,3 +1,70 @@
-h1{
-	color: red;
+
+  body {
+    margin: 0;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    background-image: linear-gradient(to bottom right, #6371F2,#6371F2, #F45353, #6371F2, #6371F2);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Gotham, bold;
+    text-align: center;
+  }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div{
+      margin: 50px auto; /* Margin outside the container */
+      padding: 20px; /* Space inside the container */
+      max-width: 600px;
+  }
+
+  .star-container {
+    text-align: center;
+    margin-top: 0px;
+
+  }
+
+  .fa-star {
+    font-size: 30px; 
+    color: gold; 
+    margin: 5px; 
+    transition: transform 0.3s ease;
+  }
+
+  .fa-star:hover {
+    transform: scale(1.5); 
+  }
+
+h1 {
+font-family: "Stardos Stencil", system-ui;"
+      font-size: 300;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+h2{
+font-family: "sans-serif;"
+  margin-top: 10px;
+  }
+
+  h4{
+  	font-style: sans serif;
+  	font-size: 100;
+  text-align: justify;
+  margin: 0px;
+}
+
+  iframe {
+    width: 600px;
+    height: 447px;
+    margin: 0 auto;
+    background-color: white;
+    border-color: gray;
+    border-width: 3px;
 }
