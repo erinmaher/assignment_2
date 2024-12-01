@@ -27,11 +27,13 @@ div{
   .star-container {
     text-align: center;
     margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
 
   }
 
   .fa-star {
-    font-size: 30px; 
+    font-size: 80px; 
     color: gold; 
     margin: 5px; 
     transition: transform 0.3s ease;
@@ -48,9 +50,9 @@ font-family: "Stardos Stencil", system-ui;"
     margin-bottom: 0px;
   }
 
-h2{
-font-family: "sans-serif;"
-  margin-top: 10px;
+  h3{
+    font-family: sans-serif;
+    margin-bottom: 10px;
   }
 
   h4{
@@ -58,6 +60,11 @@ font-family: "sans-serif;"
   	font-size: 100;
   text-align: justify;
   margin: 0px;
+}
+
+p{
+  font-family: sans-serif;
+  text-align: justify;
 }
 
   iframe {
@@ -68,4 +75,3 @@ font-family: "sans-serif;"
     border-color: gray;
     border-width: 3px;
 }
-
